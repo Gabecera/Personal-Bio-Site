@@ -176,6 +176,14 @@ nav a.active .tag-rule {
   transition: border-color 0.2s ease, color 0.2s ease;
 }
 
+.socials a.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.6rem;
+  border-radius: 4px;
+}
+
 .socials a:hover,
 .socials a:focus-visible {
   color: var(--accent);
@@ -326,7 +334,16 @@ p + p { margin-top: 1rem; }
   gap: 1.25rem;
   font-family: 'JetBrains Mono', monospace;
   font-size: 0.78rem;
+}
+
+.project-links a {
   color: var(--accent);
+  transition: opacity 0.2s ease, letter-spacing 0.2s ease;
+}
+
+.project-links a:hover {
+  opacity: 0.75;
+  letter-spacing: 0.04em;
 }
 
 footer {
