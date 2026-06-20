@@ -1,12 +1,12 @@
 :root {
-  --bg: #14171f;
-  --bg-elevated: #1a1e28;
+  --bg: #1e2538;
+  --bg-elevated: #252e45;
   --text-primary: #e8ecf1;
   --text-secondary: #92a0ab;
   --text-tertiary: #5e6b78;
   --accent: #5ec9a8;
   --accent-dim: rgba(94, 201, 168, 0.1);
-  --border: #232934;
+  --border: #2e3a50;
   --max-width: 1200px;
 }
 
@@ -213,7 +213,7 @@ section {
   width: 500px;
   height: 500px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(212, 166, 87, 0.15), transparent 70%);
+  background: radial-gradient(circle, rgba(94, 201, 168, 0.1), transparent 70%);
   pointer-events: none; /* lets clicks pass through */
   transform: translate(-50%, -50%);
   z-index: 1;
@@ -300,13 +300,14 @@ p + p { margin-top: 1rem; }
   border: 1px solid var(--border);
   border-radius: 8px;
   margin-bottom: 1.25rem;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .project-card:hover,
 .project-card:focus-visible {
   border-color: var(--accent);
   transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project-card h3 {
