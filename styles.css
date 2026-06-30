@@ -218,8 +218,8 @@ section {
   position: fixed;
   top: 0;
   left: 0;
-  width: 500px;
-  height: 500px;
+  width: 900px;
+  height: 900px;
   border-radius: 50%;
   background: radial-gradient(circle, rgba(94, 201, 168, 0.1), transparent 70%);
   pointer-events: none; /* lets clicks pass through */
